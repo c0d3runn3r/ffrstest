@@ -1,0 +1,19 @@
+{
+  "name": "ffrstest",
+  "version": "1.0.0",
+  "description": "This is a test FFRS service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0d3runn3r/ffrstest.git"
+  },
+  "author": "Joseph Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0d3runn3r/ffrstest/issues"
+  },
+  "homepage": "https://github.com/c0d3runn3r/ffrstest#readme"
+}
