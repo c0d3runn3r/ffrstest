@@ -4,7 +4,8 @@
   "description": "This is a test FFRS service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js | ./node_modules/.bin/bunyan"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/c0d3runn3r/ffrstest/issues"
   },
-  "homepage": "https://github.com/c0d3runn3r/ffrstest#readme"
+  "homepage": "https://github.com/c0d3runn3r/ffrstest#readme",
+  "dependencies": {
+    "bunyan": "^1.8.4",
+    "express": "^4.14.0",
+    "jstoxml": "^0.2.4",
+    "nodemon": "^1.11.0"
+  }
 }
